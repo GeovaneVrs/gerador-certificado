@@ -4,10 +4,11 @@ import { Navbar } from "./_components/navbar/navbar";
 import { Button } from "./_components/primary-button/primary-button";
 import { SecondaryButton } from "./_components/secondary-button/secondary-button";
 import { ItemCertificado } from "./_components/item-certificado/item-certificado";
+import { BaseUI } from "./_components/base-ui/base-ui";
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Button, SecondaryButton, ItemCertificado],
+  imports: [Navbar, Button, SecondaryButton, ItemCertificado, BaseUI],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
